@@ -2,7 +2,6 @@
 
 import sympy
 import itertools
-import json
 import numpy as np
 import time
 
