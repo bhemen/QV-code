@@ -15,7 +15,7 @@ We say the platform reaches the "correct" decision if
 ```
 In other words, the platform reaches the correct decision if a strict majority of voters (weighted by $v_i$) votes for the "correct" outcome.
 
-Voter $i$ receives a reward $u_i$ if the platform votes correctly and 0 otherwise.  Voter $i$'s cost is $v_i^m$ (whether or not the platform reaches the correct decision).  So voter $i$'s *expected* payoff is\ 
+Voter $i$ receives a reward $u_i$ if the platform votes correctly and 0 otherwise.  Voter $i$'s cost is $v_i^m$ (whether or not the platform reaches the correct decision).  So voter $i$'s *expected* payoff is
 ```math
    u_i \cdot \Pr \left[ \sum_{i=1}^n s_i \cdot v_i > 0 \right] - v_i^m
 ```
